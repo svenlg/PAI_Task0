@@ -43,7 +43,9 @@ def log_posterior_probs(x):
     assert x.ndim == 1
 
     # TODO: enter your code here
-    
+    log_p = 6
+    print("hello world")
+
     assert log_p.shape == (3,)
     return log_p
 
