@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM --platform=linux/amd64 python:3.8-slim
 ADD ./requirements.txt /requirements.txt
 RUN pip install -U pip && pip install -r /requirements.txt
 WORKDIR /code
