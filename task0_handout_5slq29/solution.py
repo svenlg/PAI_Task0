@@ -58,6 +58,7 @@ def posterior_probs(x):
 
 
 def main():
+    print("moin")
     """ sample from Laplace dist """
     dist = HYPOTHESIS_SPACE[1]
     x = dist.rvs(1000, random_state=28)
